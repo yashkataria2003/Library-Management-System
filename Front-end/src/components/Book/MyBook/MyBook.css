@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container1mb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.cardmb {
+  height: 14rem;
+  width: 78rem;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.599);
+  border: 0.1rem solid white;
+  border-radius: 1rem;
+  margin: 2rem 7rem;
+}
+
+.cardmb img {
+  height: 12rem;
+  margin-left: 1rem;
+}
+
+.cardmb p {
+  color: white;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0rem 0.5rem;
+}
+
+.cardmb article {
+  color: white;
+  text-align: center;
+  margin: 0rem 0.5rem;
+}
+
+.cardmb h3 {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  margin: 0rem 0.5rem;
+}
+
+.btn-containermb {
+  margin: 0rem 1rem;
+}
+
+.btnmb {
+  height: 2.4rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+  border-radius: 1rem;
+  background-color: rgba(6, 11, 115, 0.979);
+  color: white;
+  border-style: none;
+  border: 0.1rem solid white;
+}
+
+.btnmb:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 987px) and (max-width: 1499px) {
+  .cardmb {
+    height: 18rem;
+    width: 84rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.599);
+    border-radius: 1rem;
+    margin: 2rem 5rem;
+  }
+}

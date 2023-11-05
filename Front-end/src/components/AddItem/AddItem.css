@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1ai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingai {
+    text-align: center;
+    margin: 2rem 0rem;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.formItemsai {
+    height: 4rem;
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    background-color: rgba(0, 0, 0, 0.599);
+    border-radius: 1rem;
+    color: white;
+    padding: 0rem 1rem;
+    border-style: none;
+    border: 0.1rem solid white;
+}
+
+.formItemsai:hover {
+    border: 1rem soild white;
+    border-radius: 1rem;
+}
+
+.submitai {
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+    background-color: rgba(6, 11, 115, 0.979);
+    color: white;
+    border-style: none;
+    border: 0.1rem solid white;
+}
+.formItemsai::placeholder {
+    color: white;
+}
+
+.submitai:hover {
+    border: 1rem soild white;
+    border-radius: 1rem;
+    font-size: large;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 987px) and (max-width: 1499px) {
+    .formItemsai {
+        height: 4rem;
+        width: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0rem;
+        background-color: rgba(0, 0, 0, 0.599);
+        border-radius: 1rem;
+        padding: 0rem 1rem;
+        color: white;
+        border-style: none;
+    }
+  }

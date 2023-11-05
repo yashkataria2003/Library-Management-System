@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.books {
+  list-style: none;
+}
+
+.headingmbs {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 1.7rem;
+}

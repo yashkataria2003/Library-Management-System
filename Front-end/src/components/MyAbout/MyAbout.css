@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.boxma {
+    height: 10rem;
+    width: 83rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(11, 31, 86, 0.783);
+    border-radius: 1rem;
+    flex-direction: column;
+    color: white;
+    padding: 0rem 4rem;
+    margin: 2rem 0rem;
+    border: 0.1rem solid white;
+}
+
+.boxma p {
+    color: white;
+}
+
+.boxma h3 {
+    margin-bottom: 1rem;
+}
+
+.container1ma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.cardma {
+    height: 30rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(11, 31, 86, 0.783);
+    border-radius: 1rem;
+    margin: 0rem 7rem;
+    border: 0.1rem solid white;
+}
+
+.cardma img {
+    width: 80%;
+    height: 80%;
+}
+
+.cardma img:hover {
+    scale: 1.04;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.cardma p {
+    color: white;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0rem 1rem;
+}
+
+.cardma article {
+    color: white;
+    text-align: center;
+}
+
+.socialma {
+    text-align: center;
+    padding-bottom: 0.3rem;
+    color: white;
+}
+
+.socialma>a {
+    font-size: 1.7rem;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0.6rem 0.6rem;;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.socialma>a:hover {
+    opacity: 0.9;
+}
+
+.cardma h3 {
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
